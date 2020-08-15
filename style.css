@@ -18,7 +18,7 @@ body {
     display: flex;
     flex-direction: column;
     height: 100%;
-    width: 350px;
+    width: 290px;
     background-color: white;
 }
 
@@ -30,24 +30,24 @@ body {
 }
 
 #navbar ul li {
-    border-bottom: grey solid 2px;
+    border-bottom: grey solid 1px;
     padding: 20px 0 20px 10px;
 }
 
 #navbar ul li a.nav-link{
-    font-size: 1.2rem;
+    font-size: 1rem;
     text-decoration: inherit;
-    color: inherit;
+    color: #4d4e53;;
 }
 
 #navbar ul li a.nav-link:hover{
     font-size: 1.2rem;
     text-decoration: inherit;
-    color: inherit;
+    color: #4d4e53;;
 }
 
 header {
-    font-size: 2rem;
+    font-size: 1.4rem;
 }
 
 #main-doc {

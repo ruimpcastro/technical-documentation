@@ -41,7 +41,7 @@ body {
 
 #navbar ul li a {
     display: block;
-    padding: 15px;
+    padding: 15px 10px;
 }
 
 #navbar ul li a.nav-link{

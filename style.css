@@ -20,6 +20,7 @@ body {
     height: 100%;
     width: 290px;
     background-color: white;
+    border-right: grey solid 2px;
 }
 
 #navbar ul {
@@ -31,7 +32,16 @@ body {
 
 #navbar ul li {
     border-bottom: grey solid 1px;
-    padding: 20px 0 20px 10px;
+}
+
+#navbar ul li > header {
+    padding: 15px;
+    border-bottom: grey solid 1px;
+}
+
+#navbar ul li a {
+    display: block;
+    padding: 15px;
 }
 
 #navbar ul li a.nav-link{
@@ -41,7 +51,7 @@ body {
 }
 
 #navbar ul li a.nav-link:hover{
-    font-size: 1.2rem;
+    font-size: 1rem;
     text-decoration: inherit;
     color: #4d4e53;;
 }

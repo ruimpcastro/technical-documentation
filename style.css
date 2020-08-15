@@ -51,6 +51,7 @@ header {
 }
 
 #main-doc {
-    margin: 10px 35px 0 25%;
+    position: absolute;
+    margin: 10px 35px 0 320px;
     line-height: 2;
 }

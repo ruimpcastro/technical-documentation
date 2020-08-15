@@ -5,10 +5,7 @@
 }
 
 body {
-    margin: 0px;
     font-family: 'Lato', 'Lucida Grande', 'Lucida Sans Unicode', Tahoma, Sans-Serif;
-    display: flex;
-    flex-direction: row;
     font-size: 10px;
 }
 
@@ -23,7 +20,7 @@ body {
     border-right: grey solid 2px;
 }
 
-@media(max-width: 750px) {
+@media(max-width: 1000px) {
     #navbar {
         position: absolute;
         display: flex;
@@ -74,11 +71,13 @@ header {
 
 #main-doc {
     position: absolute;
-    margin: 10px 35px 0 320px;
+    margin: 0px 0 0 290px;
     line-height: 2;
+    padding: 10px 0 0 15px;
+    width: calc(100% - 290px);
 }
 
-@media(max-width: 750px) {
+@media(max-width: 1000px) {
     #main-doc {
         display: flex;
         flex-direction: column;
@@ -112,14 +111,14 @@ article > ul {
 code {
     display: block;
     text-align: left;
-    white-space: pre;
+    white-space: pre-line;
     margin: 15px;
     padding: 5px;
     word-wrap: normal;
     background-color: #f7f7f7;
 }
 
-@media(max-width: 750px) {
+@media(max-width: 1000px) {
     code {
         white-space: pre-line;
     }

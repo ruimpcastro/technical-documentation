@@ -75,3 +75,13 @@ article > p {
 article > ul {
     padding-left: 45px;
 }
+
+code {
+    display: block;
+    text-align: left;
+    white-space: pre;
+    margin: 15px;
+    padding: 5px;
+    word-wrap: normal;
+    background-color: #f7f7f7;
+}

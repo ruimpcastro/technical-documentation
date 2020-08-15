@@ -37,7 +37,7 @@ body {
 #navbar ul li a.nav-link{
     font-size: 1rem;
     text-decoration: inherit;
-    color: #4d4e53;;
+    color: #4d4e53;
 }
 
 #navbar ul li a.nav-link:hover{
@@ -54,4 +54,24 @@ header {
     position: absolute;
     margin: 10px 35px 0 320px;
     line-height: 2;
+}
+
+.main-section {
+    margin-top: 20px;
+}
+
+article {
+    margin: 10px 0;
+    padding-right: 50px;
+    font-size: 0.8rem;
+    color: #4d4e53;
+}
+
+article > p {
+    margin-left: 10px;
+    padding-bottom: 10px;
+}
+
+article > ul {
+    padding-left: 45px;
 }
